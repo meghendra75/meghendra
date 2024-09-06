@@ -1,147 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.8.2/pyscript.css">
+    <script type="module" src="https://pyscript.net/releases/2024.8.2/pyscript.js"></script>
 </head>
-
 <body>
+<py-script>
+    print("Hello world")
+</py-script>
+
     <header class="header">
+        <i class='bx hamburger bx-menu' id="menu-icon"></i>
         <a href="#home" class="logo">Gesture<span>Sync</span></a>
-        <i class='bx bx-menu' id="menu-icon"></i>
-        <nav class="navbar">
-            <a herf="#home" class="active">Home</a>
-            <a href="index4.html">Education</a>
-            <a herf="#services">Services</a>
-            <a herf="#textmonials">testmonials</a>
-            <a herf="#contact">contact</a>
+        <nav class="navbar" id="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="Education.html">Education</a>
+        <a href="AI.html">AI-Help</a>
+       
         </nav>
     </header>
     <section class="home" id="home">
         <div class="home-content">
-            <h1>Hi,it's<span>SIDDHARTH</span></h1>
+            <h1>Hi,<span>SIDDHARTH</span></h1>
             <h3 class="text-animation">Convert<span></span></h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil atque pariatur, deleniti inventore omnis,
-                et reprehenderit aut, quaerat reiciendis rem consequatur laborum dicta. Natus saepe obcaecati sit, modi
-                explicabo provident dignissimos dolorum facilis excepturi! Molestias, praesentium animi a adipisci sed
-                odit vel repellendus accusantium esse soluta sunt delectus ipsa quos.</p>
-            <div class="social-icon">
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
-                <a href="#"><i class='bx bxl-github'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-            </div>
-            <div class="btn-group">
-                <a herf="#" class="btn">Hire</a>
-                <a herf="#contact" class="btn">Contact</a>
-            </div>
+            <p>The Gesture<span>Sync</span> app bridges communication between the deaf and hearing communities. It detects sign language gestures and converts them into real-time text or audio, enabling seamless interaction. This innovative tool fosters inclusivity, enhancing accessibility and communication for both deaf and hearing individuals in everyday situations.</p>
+         <div class="social-icon">
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-twitter' ></i></a>
+            <a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+         </div>
+         <div class="btn-group">
+            <a href="#" class="btn">Sign-up</a>
+            <a href="#contact" class="btn m">Login</a>
+          </div>
         </div>
-        <div class="home-img">
+          <div class="home-img">
 
-            <img src="img.jpeg" alt="" </div>
-    </section>
-
-    <section class="education" id="education">
-        <h2 class="heading">education</h2>
-        <div class="timeline-items">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-date">2024</div>
-                <div class="timeline-content">
-                    <h3>High School</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Eaque earum quod, explicabo numquam deleniti quas! Repudiandae
-                        voluptate beatae non quia?</p>
-                </div>
-
+            <img src="img.jpeg" alt="">
+          </div>
+         </section>
+         <footer style="background-color: #2C3E50; color: white; padding: 20px; text-align: center;">
+            <div style="max-width: 1200px; margin: 0 auto;">
+                <p>&copy; 2024 GestureSync. <br> <br>All Rights Reserved.  </p>
+                <br>
+                <nav>
+                    <a href="#about" style="color: white; margin: 0 15px; text-decoration: none;">About Us</a>
+                    <a href="#services" style="color: white; margin: 0 15px; text-decoration: none;">Services</a>
+                    <a href="#contact" style="color: white; margin: 0 15px; text-decoration: none;">Contact</a>
+                    <a href="#privacy" style="color: white; margin: 0 15px; text-decoration: none;">Privacy Policy</a>
+                </nav>
+             
             </div>
-
-            <div class="timeline-items">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-date">2024</div>
-                    <div class="timeline-content">
-                        <h3>university</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                            Eaque earum quod, explicabo numquam deleniti quas! Repudiandae
-                            voluptate beatae non quia?</p>
-                    </div>
-
-                </div>
-
-                <div class="timeline-items">
-                    <div class="timeline-item">
-                        <div class="timeline-dot"></div>
-                        <div class="timeline-date">2024</div>
-                        <div class="timeline-content">
-                            <h3>internship</h3>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Eaque earum quod, explicabo numquam deleniti quas! Repudiandae
-                                voluptate beatae non quia?</p>
-                        </div>
-
-                    </div>
-                </div>
-
-    </section>
-    <section class="video-gallary">
-        <h3 class="heading">video gallary</h3>
-        <section class="prgya">
-            <a href="index2.html" class="yt">
-                <div class="p-content">
-                    <h1>Hi,it's<span>Prgya</span></h1>
-                    <h3 class="p-animation"><span></span></h3>
-                    <p>I strive to create a positive social impact, through everything I do. Through this Channel, I
-                        wish to talk about social impact in a way that hopefully inspires people into action.
-
-                        I am working on multiple things for social impact apart from this channel, most prominent of
-                        which is my work as a social impact consultant at Sattva Consulting.
-                        I also work for a small NGO, Myra- Ek Pahel, and freelance with a social enterprise, Yunikee,
-                        which creates educational content for deaf audiences.
-                        I am a graduate in Mass Communication from the University of Delhi, and have also tried my hands
-                        at print journalism at The Hindu and UPSC CSE, all with the intention of working towards social
-                        development.
-
-                        I hope we get to learn and grow together!</p>
-                </div>
-                <div class="pimg">
-                    <img src="Pragya.jpeg" alt="">
-                </div>
-            </a>
-        </section>
-        <div class="p-content">
-            <h1>Hi,it's<span>Deaf-enable-foundation</span></h1>
-            <h3 class="p-animation"><span></span></h3>
-            <p>I strive to create a positive social impact, through everything I do. Through this Channel, I wish to
-                talk about social impact in a way that hopefully inspires people into action.
-
-                I am working on multiple things for social impact apart from this channel, most prominent of which is my
-                work as a social impact consultant at Sattva Consulting.
-                I also work for a small NGO, Myra- Ek Pahel, and freelance with a social enterprise, Yunikee, which
-                creates educational content for deaf audiences.
-                I am a graduate in Mass Communication from the University of Delhi, and have also tried my hands at
-                print journalism at The Hindu and UPSC CSE, all with the intention of working towards social
-                development.
-
-                I hope we get to learn and grow together!</p>
-        </div>
-        <section>
-
-        </section>
-        <section class="prgya">
-            <a href="index3.html">
-
-                <div class="pimg">
-                    <img src="deaf-enable-foundation.jpeg" alt="">
-                </div>
-            </a>
-        </section>
-    </section>
+        </footer>
+        
+      
+       
     <script src="script.js"></script>
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
